@@ -1,0 +1,79 @@
+html {
+   background-color: navy;
+}
+
+body  {
+    background-color: navy;
+}
+
+h1, li, section {font-family: 'Dancing Script', cursive; color:white;}
+
+.my-face {
+    border: solid white;
+    width: auto;
+    height: 30em;
+}
+
+h1 {
+ font-size: 75px;
+}
+
+
+header {
+    display: flex;
+
+}
+
+.x-centered {
+    display:flex;
+    width:100%;
+    background-color: pink;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.logo {
+    height: 5em;
+    width:auto;
+    margin-left: 5%;
+}
+
+
+.bigger-logo {
+    height: 8em;
+    width:auto;
+    margin-left: 5%;
+}
+
+span {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+h2 {
+ text-align: center;
+ text-decoration: underline; 
+}
+
+section {
+   border: solid white; 
+}
+
+#section-1 {
+ display: flex;
+ margin-top: 2%;
+ justify-content: space-between;
+}
+
+#section-2 {
+ display: flex;
+ margin-top: 2%;
+
+}
+#section-3 {
+ display: flex;
+ margin-top: 2%;
+ justify-content: space-between;
+}

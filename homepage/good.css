@@ -58,6 +58,9 @@ h1, li {font-family: 'Roboto'; color: #eeeeee;}
 
 section {font-family: 'Roboto'; color: white; margin-top: 5em;}
 
+/* Following ul and li css borrowed from the following link: */
+/* Author: w3schools.com */
+/* https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu */
 ul {
   list-style-type:none;
   display: inline-block;
