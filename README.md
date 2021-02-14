@@ -1,24 +1,28 @@
-Assignment: CSS Hell
-====================
+## Gutenberg HTML and CSS Notes
 
-You will skin 3 project gutenberg stories with custom CSS.
+In the html in several places I added multiple divs
+```html
+<div class="x-header">
+    <div class="content">
+    ---- Place Content In between ----
+    </div>
+</div>
 
-You will skin 2 versions of a possible professional homepage for your
-self with 2 versions of CSS.
+<div class="x-top-level">
+    <div class="content">
+    ---- Place Content In between ----
+    </div>
+</div>
+```
+The purpose of this was to add differing colors for sections of the page to add border and background colors and stylistic margins.
 
-Read requirements.org
+I also added a `link` tag to each html page pointing to the `makeitlooknice.css` stylesheet to apply all custom css I wanted to apply.
 
-Read this comic http://theoatmeal.com/comics/design_hell
-
-git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
-
-License/Copyright
-=================
-
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
-4.0 unported license. Attribution should be a hyperlink to the
-repository and (C) 2013 Abram Hindle visibile in the text.
-
-Code is licensed under the Apache 2.0 license.
-
-
+Stylistic CSS choices:
+- Generally I find that it is easier to view dark content for longer periods of time so I opted for a darker color palette.
+- To provide focus on the certain sections of the page I used contrast.
+    - The html tag background is grey so it is out of focus
+    - the blue is a bit brighter to indicate general position to view the content
+    - The white borders signify a section that contains relevant context. Which in this case is the actual book, so that is given the most focus
+    - h2 tags signifiy titles or chapter changes, so to make it easier to scroll and recognize changing chapters I made h2 tags white so chapter counts can be performed easily.
+    - In doc3 in the html there were some margin changes related to the `.toc` class which I had to remove in order for my css to take effect. This is because my CSS was element based, which has less priority than a class css property.
